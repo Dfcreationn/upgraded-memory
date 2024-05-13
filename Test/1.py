@@ -30,10 +30,10 @@ while UI_Filter:
         sl(2.568)
         print("\033[92mCorrect\033[0m")
         sl(1)
-        RNstr = str(RandomNumber)
+        RNstr = str(b)
         print("IT TOOK")
         for digit in RNstr:
-            color_code = random.randint(36, 37)  # Generate a random color code between 31 and 37 for different colors
+            color_code = random.randint(31, 37)  # Generate a random color code between 31 and 37 for different colors
             print(f"\033[{color_code}m{digit}\033[0m", end="")
 
         print()
